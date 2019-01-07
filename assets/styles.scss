@@ -2,8 +2,14 @@
 ---
 @charset 'utf-8';
 
-$base-font-color: #383838;
-$base-font-family: 'Clear Sans';
-$base-font-size: 1.2em;
+@import 'font';
 
-$highlight-color: #db5855;
+$family-primary: 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$subtle-shade: #dedede;
+$primary: rgb(17, 171, 255);
+
+$text: #383838;
+
+@import '../node_modules/bulma/bulma.sass';
+
+@import 'blog';
