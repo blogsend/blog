@@ -1,0 +1,10 @@
+a, a:visited { color: $primary; }
+
+.navbar a, .navbar a:visited {
+  color: $text;
+
+  .brand {
+    width: 38px;
+    height: 38px;
+  }
+}

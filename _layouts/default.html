@@ -4,6 +4,7 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
     <meta name="viewport" content="initial-scale=1">
     {{ seo }}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -25,7 +26,12 @@
   </head>
   <body class="{{ page.layout }}">
 
+    {% include nav.html %}
+
     {{ content }}
+
+    {% include subscribe.html %}
+    {% include footer.html %}
 
     <script src="/assets/script.js"></script>
     <script async src="https://cdn.simpleanalytics.io/hello.js"></script>
