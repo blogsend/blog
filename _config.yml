@@ -17,6 +17,17 @@ plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-avatar
 exclude:
   - Gemfile
   - Gemfile.lock
+
+authors:
+  mtimofiiv:
+    full_name: Mike Timofiiv
+    twitter: mtimofiiv
+    homepage: https://blogsend.io
+    email: mike@blogsend.io
+  trinalaropez:
+    full_name: Tina Rogers
+    twitter: tinarogers

@@ -1,11 +1,52 @@
 ---
 layout: default
 ---
-<article class="container">
-  <p class="date">{{ page.date | date: "%b %-d, %Y" }}</p>
-  <h1>{{ page.title }}</h1>
+<section class="section">
+  <article class="container post">
+    <p class="date">{{ page.date | date: "%b %-d, %Y" }}</p>
+    <h1 class="title is-1 has-text-primary">{{ page.title }}</h1>
+    {% if page.excerpt %}
+      <p class="subtitle">{{ page.excerpt }}</p>
+    {% endif %}
+    <div class="author">
+      <figure class="image is-48x48">
+        {% avatar {{page.author}} size=48 %}
+      </figure>
+      <span class="name">{{site.authors[page.author].full_name}}</span>
+      <span class="contact-icons">
+      {% if site.authors[page.author].twitter %}
+        <a href="https://twitter.com/{{site.authors[page.author].twitter}}">
+          <span class="icon has-text-info">
+            <i class="fab fa-twitter-square"></i>
+          </span>
+        </a>
+      {% endif %}
+      {% if site.authors[page.author].homepage %}
+        <a href="{{site.authors[page.author].homepage}}">
+          <span class="icon has-text-info">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+      {% endif %}
+      {% if site.authors[page.author].email %}
+        <a href="mailto:{{site.authors[page.author].email}}">
+          <span class="icon has-text-info">
+            <i class="fas fa-envelope-square"></i>
+          </span>
+        </a>
+      {% endif %}
+      </span>
+    </div>
 
+    {% if page.masthead %}
+    <div class="masthead">
+      <figure class="image is-2by1" style="background-image: url(/assets/images/post-content/{{page.masthead}});">
+      </figure>
+    </div>
+    {% endif %}
 
-  {{ page.content }}
-
-</article>
+    <div class="content">
+      {{ page.content }}
+    </div>
+  </article>
+</section>

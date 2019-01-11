@@ -1,0 +1,53 @@
+<table class="table is-fullwidth rubik">
+  <thead>
+    <tr>
+      <th class="platform-title" colspan="3">
+        <div class="logo-centered">
+          <figure class="image is-128x128">
+            <img class="is-rounded" src="{{include.logo}}">
+          </figure>
+        </div>
+        <p>{{include.name}} Scorecard</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="category"><a href="#overall">Overall score:</a></td>
+      <td class="score">{{include.overall_score}}/10</td>
+      <td class="description">{{include.overall_blurb}}</td>
+    </tr>
+    <tr>
+      <td class="category"><a href="#target-user">Target user:</a></td>
+      <td class="score">{{include.target_user}}</td>
+      <td class="description">{{include.target_user_blurb}}</td>
+    </tr>
+    <tr>
+      <td class="category"><a href="#cost">Cost:</a></td>
+      <td class="score">{{include.cost}}</td>
+      <td class="description">{{include.cost_blurb}}</td>
+    </tr>
+    <tr>
+      <td class="category"><a href="#popularity">Popularity:</a></td>
+      <td class="score">{{include.popularity}}</td>
+      <td class="description">{{include.popularity_blurb}}</td>
+    </tr>
+    <tr>
+      <td class="category"><a href="#ease-of-use">Ease of use:</a></td>
+      <td class="score">{{include.ease_score}}/10</td>
+      <td class="description">{{include.ease_blurb}}</td>
+    </tr>
+    <tr>
+      <td class="category"><a href="#customise">Customisation options:</a></td>
+      <td class="score">{{include.customise_score}}/10</td>
+      <td class="description">{{include.customise_blurb}}</td>
+    </tr>
+    <tr>
+      <td class="category"><a href="#integration">Integration options:</a></td>
+      <td class="score">{{include.integrate_score}}/10</td>
+      <td class="description">{{include.integrate_blurb}}</td>
+    </tr>
+  </tbody>
+</table>
+
+__NOTE:__ This is part of an ongoing "Platform Spotlight" series on the world of running a blog. With it, you can help understand what your choices are to get started!
