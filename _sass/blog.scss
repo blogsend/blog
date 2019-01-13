@@ -14,30 +14,39 @@ a, a:visited { color: $primary; }
     font-size: 1.2em;
   }
 
-  .author {
-    display: flex;
-    padding: 10px 0 30px 0;
+  .content { a:hover { text-decoration: underline; } }
+}
 
-    .avatar {
-      @extend .is-rounded;
-    }
+.author {
+  display: flex;
+  padding: 10px 0 30px 0;
 
-    .name {
-      font-weight: bold;
-      font-size: 1.2em;
-      padding: 0 10px;
-      position: relative;
-      top: 7px;
-    }
-
-    .contact-icons {
-      padding-left: 5px;
-      position: relative;
-      top: 10px;
-    }
+  .avatar {
+    @extend .is-rounded;
   }
 
-  .content { a:hover { text-decoration: underline; } }
+  .name {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 10px;
+    position: relative;
+    top: 7px;
+  }
+
+  .contact-icons {
+    padding-left: 5px;
+    position: relative;
+    top: 10px;
+  }
+}
+
+.plain-link {
+  color: $text !important;
+
+  &:hover {
+    color: $text !important;
+    text-decoration: none;
+  }
 }
 
 .rubik {
@@ -72,5 +81,11 @@ a, a:visited { color: $primary; }
 
   figure {
     margin: 0 auto;
+  }
+}
+
+.subscribe-box {
+  #blogsend {
+    margin-top: 20px;
   }
 }

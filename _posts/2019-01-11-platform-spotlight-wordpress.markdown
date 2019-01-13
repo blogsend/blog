@@ -36,6 +36,12 @@ Wordpress is the undisputed king of blogging content management systems at the m
 
 If you are unsure what you need, chances are Wordpress has you covered.
 
+One thing I'd like to point out up front to avoid confusion is the difference between Wordpress and [Wordpress.com](https://wordpress.com).
+
+__Wordpress__ is a content management system application focusing on blogs. It is free, its source code is open-sourced (you can [view or download it any time](https://wordpress.org/download/)).
+
+__Wordpress.com__ is a hosting service offered by the company who maintains the application. It is a service offered for money (with a freemium tier). _You do not have to use Wordpress.com to host your Wordpress blog._
+
 <a name="target-user"></a>
 
 ## Who is Wordpress' target user?
@@ -48,15 +54,13 @@ Wordpress really has a nice interface for beginners, and more complex features a
 
 Before figuring out your cost, you will need to pick a path: __self hosting__ or __managed hosting__.
 
-__Unless you are technically inclined, I would highly recommend not going for self hosting__. This will involve you getting a server, setting up a database, setting up PHP, setting up your Wordpress codebase, not to mention customising. If you choose to do this, then cheap options for a server can be found on <a href="https://digitalocean.com">Digital Ocean</a> or <a href="https://linode.com">Linode</a>, and you could get away with paying just $5 a month!
+__If you're technically inclined, you can start out self hosting__. If not (or just don't want the fuss of it), managed hosting might be for you (I'm not going to cover self hosting here since that's more for advanced users).
 
-__Managed hosting is a perfect solution for non-technical people (or people who don't want to bother).__ There are actually quite a few hosts out there that offer great solutions, one being by [Automattic](https://automattic.com), the company that makes Wordpress. It's called [Wordpress.com](https://wordpress.com). You can actually get started there for free with minimal customisation options.
-
-If you're just starting out, you're not sure you will even have readers, or if you have much of an audience. Using the free or $5 a month tier on Wordpress.com lets you test the waters by exposing the world to your content while also not overdoing the time you will spend on customising.
+Wordpress.com's pricing starts out with a free tier, so if you have a small-time blog (or an idea you want to test for one), Wordpress.com's free tier is perfect (and obviously costing you nothing). What you pay for is customisation – things like more powerful theming options. So if that's important to you, consider going on the $5/month plan.
 
 Also factor in if you want your own a domain name (ie. a dot com for your site), there's an added cost for that. Domain costs vary depending on what the top-level domain is (TLD – the ".com" or ".org" part of the domain name), but you could get a dot com for about $15 a year.
 
-So, with a dot com domain name ($15 yearly) and a $5/month ($60 yearly) subscription at Wordpress.com, you're looking at a cost of just $75 a year to operate your blog!.
+So, with a dot com domain name ($15 yearly) and a $5/month ($60 yearly) subscription at Wordpress.com, you're looking at a cost of just $75 a year to operate your blog!
 
 <a name="popularity"></a>
 
@@ -97,3 +101,9 @@ Customising an existing theme is possible as well, but should be done carefully,
 Chances are, there's a plugin for it! Many, many services like <a href="https://maps.google.com">Google Maps</a>, <a href="https://cloudflare.com">Cloudflare</a>, <a href="https://shopify.com">Shopify</a> (not to mention social media ones) offer a plethora of different plugins.
 
 Others, like <a href="https://blogsend.io?ref=blog">Blogsend.io</a> or <a href="https://analytics.google.com">Google Analytics</a> integrate via a small code snippet you can insert by copying and pasting it into your template or theme editor.
+
+## To conclude...
+
+If you are a regular person who does not know PHP programming, the managed hosting option of a host like Wordpress.com offers you a quick and very cheap way to launch a great looking blog. The amount of customisations in the form of plugins and themes out there for Wordpress makes it immensely robust and powerful.
+
+Ultimately, the point of a blogging platform is to get out of your (and your readers') way so you can publish your content.
