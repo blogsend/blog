@@ -3,7 +3,7 @@ layout: post
 title:  "Blogging platform spotlight: Wordpress"
 categories: platform-spotlight
 author: mtimofiiv
-tags: wordpress
+tags: wordpress platform
 excerpt: Wordpress is ubiquitous, it's everywhere and it is being used by a lot of different people and companies. And so could you!
 masthead: woman-working-on-computer.jpg
 share_image: woman-working-on-computer.jpg

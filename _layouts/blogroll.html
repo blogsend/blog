@@ -2,50 +2,62 @@
 layout: default
 ---
 {% for post in site.posts limit:1 %}
-<section class="hero is-medium">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns">
-        <div class="column">
-          <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h1 class="title">
-            <a href="{{post.url}}">{{post.title}}</a>
-          </h1>
-          <p class="subtitle">
-              <a href="{{post.url}}" class="plain-link">{{ post.excerpt }}</a>
-          </p>
-          <div class="author">
-            <figure class="image is-48x48">
-              {% avatar {{post.author}} size=48 %}
-            </figure>
-            <span class="name">{{site.authors[post.author].full_name}}</span>
-          </div>
-        </div>
-        {% if post.masthead %}
+  <section class="hero is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
           <div class="column">
-            <div class="masthead">
-                <a href="{{post.url}}">
-                  <figure class="image is-2by1" style="background-image: url(/assets/images/post-content/{{post.masthead}});"></figure>
-                </a>
+            <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <h1 class="title">
+              <a href="{{post.url}}">{{post.title}}</a>
+            </h1>
+            <p class="subtitle">
+                <a href="{{post.url}}" class="plain-link">{{ post.excerpt }}</a>
+            </p>
+            <div class="author">
+              <figure class="image is-48x48">
+                {% avatar {{post.author}} size=48 %}
+              </figure>
+              <span class="name">{{site.authors[post.author].full_name}}</span>
             </div>
           </div>
-        {% endif %}
+          {% if post.masthead %}
+            <div class="column">
+              <div class="masthead">
+                  <a href="{{post.url}}">
+                    <figure class="image is-2by1" style="background-image: url(/assets/images/post-content/{{post.masthead}});"></figure>
+                  </a>
+              </div>
+            </div>
+          {% endif %}
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 {% endfor %}
 
 <section class="section">
   <div class="container">
-    <div class="blogroll">
+    <div class="blogroll-posts">
       {% for post in site.posts offset:1 %}
-        <article class="post">
-          <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h2 class="title is-3"><a href="{{post.url}}">{{post.title}}</a></h2>
-          {{ post.excerpt }}
+        <article class="post columns">
+          {% if post.masthead %}
+            <div class="column is-one-quarter">
+              <div class="masthead">
+                  <a href="{{post.url}}">
+                    <figure class="image is-2by1" style="background-image: url(/assets/images/post-content/{{post.masthead}});"></figure>
+                  </a>
+              </div>
+            </div>
+          {% endif %}
+          <div class="column">
+            <p class="date">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <h2 class="title is-3"><a href="{{post.url}}">{{post.title}}</a></h2>
+            <p class="subtitle">{{ post.excerpt }}</p>
+          </div>
         </article>
       {% endfor %}
       </div>
+    </div>
   </div>
 </section>
