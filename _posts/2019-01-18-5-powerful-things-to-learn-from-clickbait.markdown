@@ -5,7 +5,7 @@ categories: blogging
 author: mtimofiiv
 excerpt: And what you can do to make your own headlines unmissable
 masthead: laughing-newspaper-man-clickbait.jpg
-share_image: laughing-newspaper-man-clickbait.jpg
+share_image: laughing-newspaper-man-clickbait-share.jpg
 ---
 
 **Clickbait.** You know what it is – the ol' bait-and-switch. You click a headline, and then are horribly let down in the end by what you just wasted 3 minutes of your life on. You clicked it out of curiousity, or maybe you just wanted to see one weird trick to be able to make $8000 a month from home by doing absolutely nothing.
