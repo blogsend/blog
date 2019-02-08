@@ -94,6 +94,19 @@ a, a:visited { color: $primary; }
   }
 }
 
+.centered {
+  margin: 0 auto;
+}
+
+.padded {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.border-right {
+  border-right: 1px solid $subtle-shade;
+}
+
 .subscribe-box {
   #blogsend {
     margin-top: 20px;
