@@ -117,7 +117,7 @@ A headline should be **ULTRA-SPECIFIC**. If your ultimate goal is to attract rea
 
 Clickbait by definition is misleading (think _bait_). So its not the viral nature of clickbait's attention grabbing tactics that are the problem, but actually the content that follows it after you click. In a lesson on what _NOT_ to do, it's to avoid the lies.
 
-Vox Acting Managing Editor Nilay Patel said in an interview with The Poynter Institute's Andrew Beaujon:
+Vox Acting Managing Editor Nilay Patel said [in an interview with The Poynter Institute's Andrew Beaujon](https://www.poynter.org/reporting-editing/2014/the-real-problem-with-clickbait/):
 
 > Most clickbait is disappointing because it’s a promise of value that isn’t met – the payoff isn’t nearly as good as what the reader imagines.
 
