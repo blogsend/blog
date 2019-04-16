@@ -57,8 +57,8 @@ I know I certainly don't.
 
 There are plenty of mailing list services out there. They will all work, but it means using them responsibly. Respect that email address, because there is a person behind it.
 
-I also founded Blogsend.io to be based around a novel idea: as a subscriber to a blog, your email never, ever leaves the single list that you, the subscriber signed it up for.
+I was so tired of this kind of lawless behaviour that I even started my own service, [Blogsend.io](https://blogsend.io) (the blog of which you are currently reading), to leave emails unaccessible to list owners.
 
-And as the blogger, you do not need to even think about emails. I give you all the stats you will need to understand your audience. I track opens and clicks on a per-newsletter basis. And you see the aggregate number, so you know which newsletter's content is the one that performs best.
+From the perspective of the blogger, you do not need to even think about emails. I give you all the stats you will need to understand your audience. I track opens and clicks on a per-newsletter basis. And you see the aggregate number, so you know which newsletter's content is the one that performs best.
 
 And best of all it's automated, so you can send emails with no extra work (through your RSS feed).
