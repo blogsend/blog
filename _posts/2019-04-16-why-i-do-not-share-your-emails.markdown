@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "I blame bloggers and publications for most of my spam."
+title:  The worst kind of spam is not what you might think.
 categories: blogging
 author: mtimofiiv
-excerpt: And what I tried to do about it.
+excerpt: Nigerian princes and "V1AGRA" sales might be annoying, but they're not the worst.
 masthead: spam.jpg
 share_image: laughing-newspaper-man-clickbait-share.jpg
 ---
