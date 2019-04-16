@@ -5,7 +5,7 @@ categories: blogging
 author: mtimofiiv
 excerpt: Nigerian princes and "V1AGRA" sales might be annoying, but they're not the worst.
 masthead: spam.jpg
-share_image: laughing-newspaper-man-clickbait-share.jpg
+share_image: spam-share.jpg
 ---
 Something happened to me the other day – I got email in my inbox I didn't want. I know what you're thinking: _who cares? I get like 20 a day._
 
