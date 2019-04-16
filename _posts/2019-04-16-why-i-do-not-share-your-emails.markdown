@@ -45,7 +45,7 @@ This website is a fairly well-known European newspaper-turned-online publication
 
 I know you're smart – you're managing to gather subscribers through great content and smart marketing. You have a nice newsletter widget embedded on your blog. But the thing is, even if you have no intention of leaking personal data from it, it's still possible if you have a CSV of your list sitting around on cloud storage or on your hard drive.
 
-**A blogger never needs to see their subscriber's email address**. If you need it, you're likely adding them to a different list, one they did not subscribe to. If they didn't subscribe to it, maybe you shouldn't send it.
+But as a blogger you can avoid this risk. You never actually need to see your subscriber list. If you do need it, it's likely for other purposes than just sharing your content. And for that purpose you would need your reader's explicit permission anyway.
 
 ## Take off your blogger hat for a minute, and try thinking like a subscriber
 
@@ -62,3 +62,5 @@ I was so tired of this kind of lawless behaviour that I even started my own serv
 From the perspective of the blogger, you do not need to even think about emails. I give you all the stats you will need to understand your audience. I track opens and clicks on a per-newsletter basis. And you see the aggregate number, so you know which newsletter's content is the one that performs best.
 
 And best of all it's automated, so you can send emails with no extra work (through your RSS feed).
+
+Don't be a Nigerian prince. Retain and respect your readers the right way.
